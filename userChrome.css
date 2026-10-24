@@ -1,0 +1,27 @@
+* {
+  border-radius: 0 !important;
+}
+
+#tabbrowser-tabs {
+  margin-inline-start: 2.5px !important;
+}
+
+.titlebar-buttonbox-container,
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"],
+#back-button,
+#forward-button,
+#PanelUI-menu-button,
+#main-button,
+[part="button"] {
+  display: none !important;
+}
+
+*,
+*::before,
+*::after {
+  animation-duration: 0s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0s !important;
+  scroll-behavior: auto !important;
+}
